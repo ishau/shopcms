@@ -1,0 +1,69 @@
+
+@font-face {
+  font-family: "waheed";
+  src: url("assets/fonts/waheed.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "faseyha";
+  src: url("assets/fonts/faseyha.otf") format("opentype");
+}
+@font-face {
+  font-family: 'P_Faruma';
+  src: url('assets/fonts/P_Faruma.eot'),
+       url('assets/fonts/P_Faruma.eot?#iefix') format('embedded-opentype'), 
+       url('assets/fonts/P_Faruma.woff2') format('woff2'), 
+       url('assets/fonts/P_Faruma.woff') format('woff'), 
+       url('assets/fonts/P_Faruma.ttf') format('truetype'), 
+       url('assets/fonts/P_Faruma.svg#P_Faruma') format('svg');
+}
+
+.MuiCardContent-root {
+  padding: 10px!important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color:#EEEEEE;
+}
+
+.lang-dh {
+  font-family: "faseyha", "P_Faruma" !important;
+  font-size: 11pt !important;
+  text-align: right !important;
+  line-height: 19px!important;
+  direction: rtl !important;
+  unicode-bidi: bidi-override !important;
+}
+
+
+ 
+.langdh {
+  font-family: "P_Faruma" !important;
+  direction: rtl !important;
+  font-size: 14px !important;
+  overflow: hidden !important;
+  resize: none !important;
+  unicode-bidi: bidi-override !important;
+}
+
+
+.thaana-input,
+.thaana-textarea {
+  font-family: "faseyha", "MV Faseyha", "Faruma";
+  line-height: 1.8em;
+  direction: rtl;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  width: 100%;
+}
